@@ -1,0 +1,9 @@
+alert( "firstChild: " + document.body.firstChild )
+alert( "nextSibling: " + document.head.nextSibling )
+alert( "lastElementChild: " + document.body.lastElementChild )
+alert( "nHeaderMenu: " + document.body.getElementsByClassName("nHeaderMenu") )
+alert( "nheader: " + document.getElementById("nheader"))
+alert( "element: " + document.querySelector("div > ul"))
+alert( "attrib: " + document.querySelector("[class = 'separator']"))
+alert( "psevdcl: " + document.querySelector(':any-link'))
+https://e.sfu-kras.ru/course/index.php?categoryid=1
